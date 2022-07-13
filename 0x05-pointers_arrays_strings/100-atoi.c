@@ -4,7 +4,7 @@
  * _atoi - convert a string to an integer.
  * @s: the string to be comverted.
  *
- *Return: The integer value of the comverted string.
+ * Return: The integer value of the comverted string.
  */
 
 int _atoi(char *s)
@@ -21,7 +21,7 @@ int _atoi(char *s)
 		    num = (num * 10) + (*s - '0');
 
 		else if (num > 0)
-			break;
+		   break;
 	} while (*s++);
 
 	return (num * sign);
