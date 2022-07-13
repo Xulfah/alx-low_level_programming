@@ -20,8 +20,8 @@ void print_array(int *a, int n)
 			printf("%d", a[i]);
 			if (n > 0)
 			{
-														printf(", ");
-													}
+				printf(", ");
+			}
 												}
 		printf("\n");
 }
